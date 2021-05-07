@@ -1,0 +1,29 @@
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    outline: 1px solid black;
+    overflow-y: auto;
+}
+
+
+
+.msg {
+    display: flex;
+    border: 1px solid black;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+p {
+    margin-right: 20px;
+}
+
