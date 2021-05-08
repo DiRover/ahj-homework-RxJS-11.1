@@ -6,7 +6,8 @@ import newMsg from './newMsg';
 
 const msgBox = document.querySelector('.msg-box');
 
-const url = 'http://localhost:7070/messages/unread';
+// const url = 'http://localhost:7070/messages/unread';
+const url = 'https://unionserver.herokuapp.com/messages/unread';
 const request = ajax.getJSON(url);
 
 interval(1000)
